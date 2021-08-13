@@ -1,0 +1,111 @@
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+	   function confirm(form) {
+            if (form.pass1.value != null && form.pass1.value == form.pass2.value) {
+                alert("Register Successfully");
+                return true;
+            } else {
+                alert("Error: Please check your password!");
+                form.pass1.focus();
+                return false;
+            }
+		}
+	</script>
+	<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="project.css">
+ 
+</head>
+<body>
+<header>
+ <div class="row">
+<div class="col-md-6">
+
+<img class="img_logo" src="products-img/logo_site.jpg" >
+</div>
+<div class="col-md-6">
+
+<img  src="products-img/desLogo.png" >
+</div>
+
+</div>
+   <nav class="navbar navbar-inverse  container-fluid ">
+         <ul class="nav navbar-nav">
+         <li ><a href="project.html">Home</a></li>
+          <li id="productNav"><a href="products.html">Products</a></li>
+        	<li id="PurchaseNav"><a href="purchase.html">Purchase history</a></li>
+        	<li id="BuyNav"><a href="buy.html"> Buy</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="regest.html"><span class="glyphicon glyphicon-user"></span> Sign up</a></li>
+          <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+
+        </ul>
+  </nav> 
+  </header>
+<form class="form-regest" onsubmit="return confirm(this);" >
+  <div class="container form-group">
+           
+                <div>
+                    <h2>Create account</h2>
+                </div>
+
+                <div class="form-inline" >
+                    
+                        
+                            <div class="form-group ">
+
+      							<label > User Name* 
+                                <input type="text" class="form-control " placeholder="User-Name " required maxlength="12" /></label>
+                                
+                                <label > Password*  
+                                <input type="password" id="pass1" class="form-control " placeholder="ur-Password *" required /></label>
+                               
+                                <label > Confirm Password*  
+                                <input type="password" id="pass2" class="form-control" placeholder="Confirm-Password *" require/></label>
+                                 
+                                 <label > Your email* 
+                                <input type="email" class="form-control"  placeholder="admin@admin.com" required/></label>
+                                 
+                                <label > Age* 
+                                <input type="Number" class="form-control" class="form-control" placeholder="age" required/></label>
+
+                                  <label > Birth of date* 
+                                <input type="date" class="form-control" required/></label>
+                                
+                                
+                                
+                                
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="btnLogIn">
+                    <button type="submit" class="btn btn-success btn-lg btn-login-sub">LogIn</button>
+                    <button type="reset" class="btn btn-danger btn-lg">clear</button>
+                    </div>
+                    <br>
+                    <br>
+<hr>
+<div id="Hav_account">
+                    <p><b>Have a account ?</b></p>
+					
+					<a class="btn btn-info btn" href="login.html" >press here !</a> 
+                </div>
+
+           
+        
+</form>
+
+</body>
+<footer >
+
+<p> contact with me: <a href="https://api.whatsapp.com/send?phone=966554746391">WhatsApp</a>  , 
+<a href="mailto:mr_rakan@outlook.com" >Send Mail</a></p>
+  </footer>
+</html>
