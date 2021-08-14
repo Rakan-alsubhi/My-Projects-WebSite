@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ <link rel="stylesheet" type="text/css" href="project.css">
+ <style>
+ 
+    } 
+ </style>
+</head>
+<body>
+<header>
+ <div class="row">
+<div class="col-md-6">
+
+<img class="img_logo" src="products-img/logo_site.jpg" >
+</div>
+<div class="col-md-6">
+
+<img  src="products-img/desLogo.png" >
+</div>
+
+</div>
+
+    <nav class="navbar navbar-inverse  container-fluid ">
+         <ul class="nav navbar-nav">
+         <li ><a href="project.html">Home</a></li>
+          <li id="productNav"><a href="products.html">Products</a></li>
+          <li id="PurchaseNav"><a href="purchase.html">Purchase history</a></li>
+          <li class="active"><a href="buy.html"> Buy</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="regest.html"><span class="glyphicon glyphicon-user"></span> Sign up</a></li>
+          <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+
+        </ul>
+  </nav> 
+  </header>
+ 
+  
+    <div class="container-fluid text-center BForm">
+        <div class="row">
+            <div class="col-md-12">
+                <form class="form-contant FormBuy">
+                    <div class="form-group">
+                        <label for="productlist" >
+                             <label for="textar" > <b>Prdoucts : </b> </label>
+                            
+                            <input type="text"  placeholder="Please select our product" list="productList" size="35" />
+                            <datalist id="productList"> 
+                                
+                                <option  value="Smart Battery Case | Black" >1</option>
+                                <option value="Magic Mouse2 | Space Gray">2</option>
+                                <option value="Magic Keyboard with Numeric Keypad | US English | Space Gray">3</option>
+                            </datalist>
+                        </label>
+                    </div>
+                    <div class="form-group" >
+                       <label for="textar" >Payment method :</label>
+                    <input type="radio" id="radio" name="payment" value="1" /> Paypal   
+                        <input type="radio" id="radio" name="payment" value="2" /> Visa    
+                        <input type="radio" id="radio" name="payment" value="3" checked /> ApplePay 
+                        <input type="radio" id="radio" name="payment" value="4" /> SADAD 
+                    </div>
+                    <div class="form-group" >
+                        <label>
+                             <b> Quantity :</b>
+                            <input type="number" min="1" max="10" step="1" value="1" />
+                        </label>
+                    </div>
+                    <div class="form-group"   >
+                        <label for="textar" >Notes :</label>
+                        <textarea placeholder="e.g (call me between 8AM to 6PM olny please)"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-success id=sub">Pay</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+<footer >
+
+<p> contact with me: <a href="https://api.whatsapp.com/send?phone=966554746391">WhatsApp</a>  , 
+<a href="mailto:mr_rakan@outlook.com" >Send Mail</a></p>
+  </footer>
+</html>
