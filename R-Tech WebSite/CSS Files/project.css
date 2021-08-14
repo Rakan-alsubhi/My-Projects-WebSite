@@ -1,0 +1,168 @@
+.Form-login {
+	 padding: 19px ;
+    background-image:url(imgLog.jpg);
+    border: 1px solid #e3e3e3;
+    margin: 0 auto 0 auto;
+	width: 600px;
+	border-radius: 50px;
+}
+ .sidenav {
+      padding-top: 26px;
+      padding-bottom: 26px;
+      background-color: #696969;
+      height: 85%; 
+    } 
+    footer {
+      background-color: #696969;
+      color: white;
+      text-align: center; 
+      margin-top: 26px;
+    }
+    footer a {
+color: silver ;
+
+}
+footer a:hover {
+color: red;
+text-decoration: none;
+}
+.form-regest {
+	 padding: 19px ;
+    background-image:url(imgLog.jpg);
+    border: 1px solid #e3e3e3;"
+
+}
+.form-regst{
+margin-left: 15%;	
+text-align: center;
+
+}
+
+ .btn-danger{
+ 	 border-radius: 15px 50px;
+ }
+ .btn-success{
+ 	border-radius: 15px 50px;
+ }
+ .btn-info{
+ 	border-radius: 15px 50px;
+ }
+ .logo_site{
+ 	position : relative ;
+ 	top: 0px;
+ 	left: 250;
+ 	z-index:1;
+ }
+ h1.jumbotron{
+
+font-size: 500px;
+
+ }
+ table {
+ 	margin-left: 10px;
+ 	width: 100% ;
+ }
+#product-t{
+	padding-right:  15px;
+}
+table thead tr th {
+	text-align: center;
+}
+table tbody tr td {
+	padding: 40px;
+
+}
+
+.img_logo {
+	width: 17%;
+}
+#purchase-t{
+text-align: center;
+}
+.form-content {
+	display: inline;
+}
+.card-descraption-watch{
+	font-size: 30px;
+	font-family: "Baskerville-Old-Face";
+}
+.card-detailes-watch{
+	font-size: 20px;
+	font-family: "Century-Gothic" ;
+}
+.card-head-card{
+	background-color: silver;
+	font-size: 18px;
+}
+.card-title-card{
+	font-family: "Kristen-ITC";
+}
+.card-text-card{
+font-size: 20px;
+	font-family: "Baskerville-Old-Face";	
+}
+#news_r{
+	background-color: silver;
+	border: solid silver;
+	border-radius: 5px;
+}
+.FormBuy {
+    background-color: #0c4c71;
+    margin-top: 150px;
+    margin-left: 400px;
+    width: 500px;
+}
+#radio {
+    margin: .4rem;
+}
+input, textarea {
+    border-color: gray;
+    vertical-align: middle;
+}
+
+#sub_btn{
+    margin-bottom:15px;
+}
+.FormBuy{
+		 padding: 19px ;
+    background-image:url(imgLog.jpg);
+    border: 1px solid #e3e3e3;
+    border-radius: 50PX;
+    margin: 0px auto 0px auto;
+}
+.btnLogIn{
+	 margin-left: 39%;
+}
+.btn-login-sub{
+	margin-right: 15%;
+}
+#Hav_account{
+	margin: 0px  auto  0px 46%;
+}
+.log-form{
+width: 12px;
+size: 30;
+}
+#logtobic{
+	text-align: center;
+}
+
+.loginput{
+	
+	border-color: 
+}
+.loginlable{
+	margin-left: 110px;
+
+}
+.new_log{
+	margin-left: 23%;
+}
+@keyframes img_logo { 
+0% {left:   0px;  } 
+100% {left: 290px; } } 
+.img_logo{
+position: relative;  
+animation: img_logo 5s infinite; 
+animation-direction: alternate;
+}
